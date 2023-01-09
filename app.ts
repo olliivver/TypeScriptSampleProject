@@ -4,15 +4,17 @@ const button = document.getElementById("button");
 const output = document.getElementById("output");
 
 const human: {
-  name:string;
-  nickname:string;
-  age:number;
-  occupation:string;
+  name: string;
+  nickname: string;
+  age: number;
+  occupation: string;
+  learning: string;
 } = {
   name: "oliver",
   age: 30,
   nickname: "oli",
-  occupation: "coder"
-}
+  occupation: "coder",
+  learning:"typescript"
+};
 
 console.log(human.nickname);
